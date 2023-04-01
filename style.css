@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  text-align: center;
+}
+
+.ice{
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+h1{
+  font-family:'Lilita One', cursive;
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0px;
+  color: #E96479;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+
+h2{
+  font-family: arial;
+  text-align: center;
+}
+
+.paleta{
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+.compra a{
+  border-style: solid;
+  border-color: blue;
+  border-width: 5px;
+  border-radius: 5px;
+  background-color: #7DB9B6;
+  padding: 10px;
+}

@@ -1,9 +1,5 @@
-function compra() {
-  var unidad = prompt("Cuantas paletas desea Ordenar? ");
-}
+var pedido = document.getElementsByClassName("compra")[0];
 
-var boton = document.getElementsByClassName("link")[0];
-
-boton.addEventListener("click", function() {
-  compra();
+pedido.addEventListener("click", function() {
+  prompt("Cuantas paletas desea Ordenar? ");
 });
